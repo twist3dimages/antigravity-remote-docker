@@ -3,7 +3,7 @@
 # A GPU-accelerated container for running Google Antigravity remotely via noVNC
 # =============================================================================
 
-FROM nvidia/cuda:13.2.1-runtime-ubuntu22.04
+FROM nvidia/cuda:13.3.0-runtime-ubuntu22.04
 
 LABEL maintainer="raphl"
 LABEL description="Google Antigravity with noVNC remote access and GPU support"
